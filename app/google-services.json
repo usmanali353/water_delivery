@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "285659486853",
+    "firebase_url": "https://water-delivery-69b34.firebaseio.com",
+    "project_id": "water-delivery-69b34",
+    "storage_bucket": "water-delivery-69b34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285659486853:android:43f504004ca9f8a58e27ec",
+        "android_client_info": {
+          "package_name": "fyp.water_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285659486853-g3hl9h386m93qdi6e3scrs2sckr2suvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIjDumRoFUDA2A676DjEu7zegwTJ8hjcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285659486853-g3hl9h386m93qdi6e3scrs2sckr2suvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fyp.water_delivery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="fyp.water_delivery.orderDetails"
+            android:label="@string/title_activity_order_details"
+            android:parentActivityName="fyp.water_delivery.orders_list_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="fyp.water_delivery.orders_list_page"
+            android:label="@string/title_activity_orders_list_page"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="fyp.water_delivery.billing"
+            android:label="@string/title_activity_billing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="fyp.water_delivery.shopping_cart"
+            android:label="@string/title_activity_shopping_cart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="fyp.water_delivery.MainActivity"
+            android:label="Water Delivery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="fyp.water_delivery.Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="fyp.water_delivery.Selection" />
+    </application>
+
+</manifest>

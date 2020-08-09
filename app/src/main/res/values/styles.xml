@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="category_in_listview_phonedescription">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#ff009688</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="detail_in_listview_phonedescription">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff9a9a9a</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-normal</item>
+    </style>
+    <style name="heading_in_listview_phonedescription">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-normal</item>
+    </style>
+    <style name="sub_linearlayout_in_listview_phonedescription">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#ffeeeeee</item>
+        <item name="android:paddingLeft">10.0dip</item>50
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">19.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginBottom">0.100000024dip</item>
+    </style>
+
+</resources>

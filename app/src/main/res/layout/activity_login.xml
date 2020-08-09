@@ -1,0 +1,34 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailtxt"
+            android:textSize="20sp"
+            app:met_singleLineEllipsis="true"
+            app:met_floatingLabel="highlight"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:id="@+id/passwordtxt"
+            android:textSize="20sp"
+            app:met_singleLineEllipsis="true"
+            app:met_floatingLabel="highlight"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

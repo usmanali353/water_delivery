@@ -1,0 +1,2 @@
+rootProject.name='water_delivery'
+include ':app'
